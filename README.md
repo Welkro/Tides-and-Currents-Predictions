@@ -4,7 +4,7 @@
 
 In October 2024, **Hurricane Milton** made its way across the Atlantic, affecting numerous coastal areas. This project was developed to visualize real-time tides and environmental conditions using **NOAA's Tides and Currents API** data, focusing on the **Trident Pier station in Florida**, which was directly along the hurricane's path. By visualizing this data, we can monitor changes in tides, wind speeds, air pressure, and temperatures to gain insights into how the hurricane impacted coastal areas.
 
-Using **LightningChart Python** , we simulate real-time visualizations of the conditions at **Trident Pier** from October 8–12, 2024. NOAA provides data every 6 minutes, so true real-time plotting isn't feasible. Therefore, we implement a **simulated playback** of the data to mimic live updates.
+Using **LightningChart Python**, we simulate real-time visualizations of the conditions at **Trident Pier** from October 8–12, 2024. NOAA provides data every 6 minutes, so true real-time plotting isn't feasible. Therefore, we implement a **simulated playback** of the data to mimic live updates.
 
 ## LightningChart Python
 

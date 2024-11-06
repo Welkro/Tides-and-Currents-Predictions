@@ -64,9 +64,7 @@ This section defines the **NOAA API URLs** to fetch data for key parameters like
 
 ### Fetching Data from NOAA's API
 
-NOAA's API provides updates every 6 minutes, which means that **true real-time visualization** isn't feasible. However, using  **simulated playback** , we can mimic real-time updates by progressively displaying historical data. Below is the method we use to fetch and store the data:
-
-NOAA's API provides updates at regular intervals, specifically every 6 minutes. Due to this, actual **real-time visualization** isn't feasible. However, by simulating the data playback, we can progressively display historical data in a way that mimics real-time updates. Below is the method we use to fetch and store the data:
+NOAA's API provides updates every 6 minutes, which means that **true real-time visualization** isn't feasible. However, using **simulated playback**, we can mimic real-time updates by progressively displaying historical data. Below is the method we use to fetch and store the data:
 
 ```python
 # Fetch data and store it
